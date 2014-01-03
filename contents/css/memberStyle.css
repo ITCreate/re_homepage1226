@@ -8,8 +8,15 @@
 	width: 600px;
 	height: 400px;
 	background-color: white;
-	border: 1px solid black;
-	background-image: url(../images/window00.png);
+	z-index: 4;
+	overflow: hidden;
+}
+
+#window_frame {
+	position: relative;
+	width: 600px;
+	height: 400px;
+	z-index: 8;
 }
 
 #personaldata_window {
@@ -19,7 +26,7 @@
 	width: 300px;
 	height: 160px;
 	background-image: url(../images/window01.png);
-	z-index: 6;
+	z-index: 7;
 	/*フォント*/
 	color: white;
 	font-size: 16px;
@@ -32,8 +39,6 @@
 	top: 100px;
 	z-index: 5;
 }
-
-
 
 #profile_subjects {
 	float: left;
@@ -71,16 +76,20 @@
 #scroll_upside {
 	position: relative;
 	width: 188px;
-	height: 60px;
+	padding: 14px 0px;
 	background: linear-gradient(#FFF 60%,#BBB);
 	border-radius: 5px;
 	border: solid 1px green;
+	text-align: center;
+	font-size: 30px;
+	color: #D54;
+
 }
 
 #frame_left {
 	float: left;
 	width: 15px;
-	height: 280px;
+	height: 278px;
 	background: -webkit-gradient(linear,left center, right center, from(green), to(#BBB));
 	background: -moz-linear-gradient(left, #BBB, #EEE);
 	border: solid 1px gray;
@@ -97,20 +106,22 @@
 #frame_right {
 	float: left;
 	width: 15px;
-	height: 280px;
+	height: 278px;
 	background: -webkit-gradient(linear,left center, right center, from(#BBB), to(green));
 	background: -moz-linear-gradient(left, #EEE, #BBB);
 	border: solid 1px gray;
 }
 
 #scroll_downside {
-	position: relative;
-	top: 280px;
-	width: 190px;
-	height: 60px;
+	float: left;
+	width:188px;
+	padding: 14px 0px;
 	background: linear-gradient(#BBB, #FFF 60%);
 	border-radius: 5px;
 	border: solid 1px green;
+	text-align: center;
+	font-size: 30px;
+	color: #D54;
 }
 
 .type_member {
