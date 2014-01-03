@@ -8,7 +8,7 @@ $("body").ready(function(){
 	alert(($("#intro_header").height() + $("#inclusion_maincontents").height() + $("#footer_wrap").height()));
 	alert(window.innerHeight);
 	*/
-	document.body.style.zoom = $(window).innerHeight() / $("#wrap").height();
+	document.body.style.zoom = 1;
 	//ウインドウの幅のと整合性がずれる。
 	//widthもおかしい
 });
@@ -49,7 +49,9 @@ $("body").ready(function(){
 });
 
 //【３】４ページ目、部員紹介のメンバーリスト
+/*
 $("body").ready(function(){
 	obj_offset = $("#member_sub_window").offset().left + $("#member_sub_window").width() + 39;
 	$("#memberwrap").offset({left: obj_offset});
 });
+*/

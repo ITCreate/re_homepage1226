@@ -58,27 +58,64 @@
 
 }
 
-#memberwrap {
+#memberwindow {
 	position: absolute;
-	left: 920px;
+	left: 900px;
 	top: 10px;
-	width: 160px;
+	width: 190px;
 	height: 400px;
+	background-color: blue;
+}
+
+#scroll_upside {
+	position: relative;
+	width: 190px;
+	height: 60px;
+	background-color: green;
+}
+
+#frame_left {
+	float: left;
+	width: 20px;
+	height: 280px;
+	background-color: black;
+}
+
+#memberwrap {
+	float: left;
+	height: 280px;
+	width: 150px;
 	overflow: hidden;
+	background-color: red;
+}
+
+#frame_right {
+	float: left;
+	width: 20px;
+	height: 280px;
+	background-color: black;
+}
+
+#scroll_downside {
+	position: relative;
+	top: 280px;
+	width: 190px;
+	height: 60px;
+	background-color:green;
 }
 
 .type_member {
-	height: 60px;
+	float: left;
+	height: 70px;
 	width: 150px;
 	border-radius: 5px;
-	bottom: 10px;
-	float: left;
 	background-color: #DDFFDD;
 }
 
 .type_member:hover {
 	cursor: pointer;
 }
+
 
 #member1 {
 
