@@ -218,24 +218,23 @@
 /* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- */
 /* -- フッターのスタイル -- */
 #footer_wrap {
-	position: relative;
-	height: 100px;
-	width: 5400px;
-	background: linear-gradient(#609030 10%, #90C060);
-	background: -ms-linear-gradient-gradient(#609030 10%, #90C060);
 }
 
 .no-linear-gradient #footer_wrap {
 	position: relative;
-	height: 100px;
-	width: 5400px;
+	height: 300px;
+	width: 1500px;
 	background: #90C060;
 }
 
 #copyright {
 	position: fixed;
 	top: 580px;
-	left: 10px;
+	width: 2400px;
+	height: 100px;
+	padding: 10px;
+	background: linear-gradient(#609030 10%, #90C060);
+	background: -ms-linear-gradient-gradient(#609030 10%, #90C060);
 	/*フォント*/
 	font-size: 18px;
 	font-weight: bold;
