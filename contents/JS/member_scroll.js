@@ -81,8 +81,9 @@ $("body").ready(function(){
 		var course = "ITテクニカル学科";
 		var speciality = "ビルバク";
 		var image = "images/member/parman.jpg";
+		var x=0, y=0;
 
-		personaldata_renewal(name, grade, course, speciality, image);
+		personaldata_renewal(name, grade, course, speciality, image, x ,y);
 	});
 });
 
@@ -93,8 +94,9 @@ $("body").ready(function(){
 		var course = "ネットワーク学科";
 		var speciality = "ビルバク";
 		var image = "images/member/gollira.jpg";
+		var x=0, y=0;
 
-		personaldata_renewal(name, grade, course, speciality, image);
+		personaldata_renewal(name, grade, course, speciality, image, x ,y);
 	});
 });
 
@@ -104,8 +106,10 @@ $("body").ready(function(){
 		var grade = "3";
 		var course = "ITネットワーク学科";
 		var speciality = "ビルバク";
-		var image = "images/member/yamada.png";	
-		personaldata_renewal(name, grade, course, speciality, image);
+		var image = "images/member/yamada.png";
+		var x=0, y=0;
+
+		personaldata_renewal(name, grade, course, speciality, image, x ,y);
 	});
 });
 
@@ -115,8 +119,10 @@ $("body").ready(function(){
 		var grade = "3";
 		var course = "ITネットワーク学科";
 		var speciality = "ビルバク";
-		var image = "images/member/doragon.jpg";	
-		personaldata_renewal(name, grade, course, speciality, image);
+		var image = "images/member/doragon.jpg";
+		var x=0, y=0;	
+
+		personaldata_renewal(name, grade, course, speciality, image, x ,y);
 	});
 });
 
@@ -126,8 +132,10 @@ $("body").ready(function(){
 		var grade = "3";
 		var course = "ITネットワーク学科";
 		var speciality = "ビルバク";
-		var image = "images/member/yamada.png";	
-		personaldata_renewal(name, grade, course, speciality, image);
+		var image = "images/member/yamada.png";
+		var x=0, y=0;
+
+		personaldata_renewal(name, grade, course, speciality, image, x ,y);
 	});
 });
 
@@ -137,8 +145,10 @@ $("body").ready(function(){
 		var grade = "3";
 		var course = "ITネットワーク学科";
 		var speciality = "ビルバク";
-		var image = "images/member/megane.gif";	
-		personaldata_renewal(name, grade, course, speciality, image);
+		var image = "images/member/megane.gif";
+		var x=0, y=0;
+
+		personaldata_renewal(name, grade, course, speciality, image, x ,y);
 	});
 });
 
@@ -148,8 +158,10 @@ $("body").ready(function(){
 		var grade = "3";
 		var course = "ITネットワーク学科";
 		var speciality = "ビルバク";
-		var image = "images/member/girl.jpg";	
-		personaldata_renewal(name, grade, course, speciality, image);
+		var image = "images/member/girl.jpg";
+		var x=0, y=0;
+
+		personaldata_renewal(name, grade, course, speciality, image, x ,y);
 	});
 });
 
@@ -160,7 +172,9 @@ $("body").ready(function(){
 		var course = "ITネットワーク学科";
 		var speciality = "ビルバク";
 		var image = "images/member/mogura.jpg";	
-		personaldata_renewal(name, grade, course, speciality, image);
+		var x=0, y=0;
+
+		personaldata_renewal(name, grade, course, speciality, image, x ,y);
 	});
 });
 
@@ -171,8 +185,9 @@ $("body").ready(function(){
 		var course = "ITテクニカル学科";
 		var speciality = "ビルバク";
 		var image = "images/member/gollira.jpg";
+		var x=0, y=0;
 
-		personaldata_renewal(name, grade, course, speciality, image);
+		personaldata_renewal(name, grade, course, speciality, image, x, y);
 	});
 });
 
@@ -183,16 +198,19 @@ $("body").ready(function(){
 		var course = "ITテクニカル学科";
 		var speciality = "ビルバク";
 		var image = "images/member/gollira.jpg";
+		var x=0, y=0;
 
-		personaldata_renewal(name, grade, course,  speciality, image);
+		personaldata_renewal(name, grade, course,  speciality, image, x, y);
 	});
 });
 
 //個人情報を書き換えるプログラム。引数はマウスオーバーイベントから持ってくる。
-function personaldata_renewal(name, grade, course, speciality, image){
+function personaldata_renewal(name, grade, course, speciality, image, x, y){
 	$("#personaldata_name").text(name);
 	$("#personaldata_grade").text(grade);
 	$("#personaldata_course").text(course);
 	$("#personaldata_speciality").text(speciality);
 	$("#charactor").attr("src", image);
+	$("#charactor").css('margin-top', y+'px');
+	$("#charactor").css('margin-top', x+'px')
 }
