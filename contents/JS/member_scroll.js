@@ -184,7 +184,7 @@ $("body").ready(function(){
 		var grade = "1";
 		var course = "ITテクニカル学科";
 		var speciality = "ビルバク";
-		var image = "images/member/gollira.jpg";
+		var image = "images/member/shiva.png";
 		var x=0, y=0;
 
 		personaldata_renewal(name, grade, course, speciality, image, x, y);

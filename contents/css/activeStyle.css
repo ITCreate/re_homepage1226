@@ -1,6 +1,14 @@
 @CHARSET "UTF-8";
 /*部員紹介*/
 
+.menuicon_frame{
+	transition: .7s;
+}
+
+.menuicon_frame:hover{
+ color: #ffffff;
+}
+
 /*活動紹介(全体)*/
 .actionflame{
 	font-family: cursive;
@@ -15,8 +23,9 @@
 	width: 300px; height: 380px;
 }
 
-/*テキストの要素*/
-.profiles {
+/*テキスト*/
+
+.sagyou{
 	font-size:15px;
     list-style:none;
     cursor: pointer;
@@ -31,18 +40,6 @@ position: relative;
 left: 150px;
 font-family: 'Lato', sans-serif;
 color: black;
-<<<<<<< HEAD
-<<<<<<< HEAD
-font-size: 1px;
-
-margin-left: -90px;
-margin-top: -292px;
-background: linear-gradient(#fff, #aaa);
-width: 160px;
-height: 189px;
-=======
-=======
->>>>>>> fd8ec3b5a9b1b6488e17476708ebacb35519f7e0
 margin-left: -150px;
 margin-top: -385px;
 background: linear-gradient(#fff, #8b5);
@@ -51,10 +48,6 @@ height: 377px;
 -webkit-transform: scale(0.1,0.1);
 -moz-transform: scale(0.1,0.1);
 -ms-transform: scale(0.1,0.1);
-<<<<<<< HEAD
->>>>>>> fd8ec3b5a9b1b6488e17476708ebacb35519f7e0
-=======
->>>>>>> fd8ec3b5a9b1b6488e17476708ebacb35519f7e0
 }
 
 /*画像のアニメーション速度*/
@@ -75,39 +68,18 @@ height: 377px;
 /*オンマウス時の画像のアニメーション*/
 .sagyou:hover{
 	opacity:0;
-<<<<<<< HEAD
-<<<<<<< HEAD
-	-webkit-transform: scale(1);
-=======
-=======
->>>>>>> fd8ec3b5a9b1b6488e17476708ebacb35519f7e0
 	-webkit-transform: scale(0.9);
 	-moz-transform: scale(0.9);
 	-ms-transform: scale(0.9);
 
-<<<<<<< HEAD
->>>>>>> fd8ec3b5a9b1b6488e17476708ebacb35519f7e0
-=======
->>>>>>> fd8ec3b5a9b1b6488e17476708ebacb35519f7e0
 }
 
 /*オンマウス時のボックス要素のアニメーション*/
 #big li:hover .info{
-<<<<<<< HEAD
-<<<<<<< HEAD
-	-webkit-opacity:0.7;
-	-webkit-transform: scale(1);
-=======
-=======
->>>>>>> fd8ec3b5a9b1b6488e17476708ebacb35519f7e0
 	opacity:0.8;
 	-webkit-transform: scale(1);
 	-moz-transform: scale(1);
 	-ms-transform: scale(1);
-<<<<<<< HEAD
->>>>>>> fd8ec3b5a9b1b6488e17476708ebacb35519f7e0
-=======
->>>>>>> fd8ec3b5a9b1b6488e17476708ebacb35519f7e0
 }
 
 
